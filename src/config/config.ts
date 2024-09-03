@@ -136,8 +136,8 @@ export type PreviewConfig = {
 
 const basePreviewConfig: PreviewConfig = {
   defaultEmoji: '1f60a',
-  defaultCaption: "What's your moodzz?",
-  showPreview: false,
+  defaultCaption: "What's your mood?",
+  showPreview: true,
 };
 
 type ConfigExternal = {
